@@ -1,0 +1,58 @@
+HELP.md
+target/
+.maven-cache/
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+uploads/
+*.zip
+reference/rapport-render/
+reference/rapport-unpacked/
+reference/*.zip
+backend/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Secrets et configuration locale ###
+.env
+.env.*
+!.env.example
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-local.yaml
+
+### Journaux d'exécution ###
+*.log
+logs/
+
+### Fichiers système ###
+.DS_Store
+Thumbs.db
